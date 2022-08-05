@@ -1,6 +1,6 @@
 ## Bloquear acceso al dashboard para usuarios no administradores
 
-```
+```php
 add_action('init', 'blockusers_init');
 function blockusers_init()
 {
@@ -14,7 +14,7 @@ function blockusers_init()
 ## Redireccionar a la pagina de inicio despues del desloguearse
 
 
-```
+```php
 add_action('wp_logout', 'auto_redirect_after_logout');
 function auto_redirect_after_logout()
 {
@@ -26,7 +26,7 @@ function auto_redirect_after_logout()
 
 ## Ocultar barra de administracion de wp
 
-```
+```php
 function tf_check_user_role($roles)
 {
     /*@ Check user logged-in */
