@@ -12,7 +12,7 @@ Se agrega el siguiente codigo php en: Hello Elementor Child: functions.php cambi
 
 ## Codigo php insertado
 
-```
+```php
 // Agregado por Arturo
 
 // Valida los caracteres del campo nombre
