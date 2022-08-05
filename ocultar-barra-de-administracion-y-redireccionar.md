@@ -1,4 +1,4 @@
-## Bloquear acceso al dashboard para usuarios no autorizados
+## Bloquear acceso al dashboard para usuarios no administradores
 
 ```
 add_action('init', 'blockusers_init');
@@ -11,7 +11,7 @@ function blockusers_init()
 }
 ```
 
-## Redireccionar a la pagina de inicio de wp si el usuario no es administrador
+## Redireccionar a la pagina de inicio despues del desloguearse
 
 
 ```
